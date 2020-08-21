@@ -1,4 +1,4 @@
-16307530604032159
+16318716408783449
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -42672,19 +42672,54 @@ ATMEGA32U4_Annotated
 44
 44
 Custom_Footprints
-C0603_Silks
+C_0603_Annotated
 
 
 0
 2
 2
 Custom_Footprints
-R0603_Silks
+D_SOD-123_Annotated
+SOD-123
+SOD-123
+0
+2
+2
+Custom_Footprints
+Fuse_1206_Annotated
+Fuse SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
+Custom_Footprints
+Mid_Mount-USB_C
+
+
+0
+18
+13
+Custom_Footprints
+Mid_Mount-USB_C_HandSoldering
+
+
+0
+18
+13
+Custom_Footprints
+R_0603_Annotated
 
 
 0
 2
 2
+Custom_Footprints
+Resonator_3Pin_Annotated
+SMD Resomator/Filter Murata CSTCE, https://www.murata.com/en-eu/products/productdata/8801162264606/SPEC-CSTNE16M0VH3C000R0.pdf
+SMD SMT ceramic resonator filter
+0
+3
+3
 Custom_Footprints
 Rotary_Encoder
 
@@ -42692,6 +42727,20 @@ Rotary_Encoder
 0
 7
 6
+Custom_Footprints
+SOT-23_Annotated
+SOT-23, Standard
+SOT-23
+0
+3
+3
+Custom_Footprints
+Tactile_Switch
+
+
+0
+4
+4
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
