@@ -63,7 +63,7 @@ F 1 "Num" H 2600 1600 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 2600 1600 50  0001 C CNN
 F 3 "~" H 2600 1600 50  0001 C CNN
 	1    2600 1400
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Diode:BAV70 D1
@@ -85,7 +85,7 @@ F 1 "Slash" H 3800 1250 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 3800 1600 50  0001 C CNN
 F 3 "~" H 3800 1600 50  0001 C CNN
 	1    3800 1400
-	-1   0    0    1   
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	2800 1400 2900 1400
@@ -104,7 +104,7 @@ F 1 "7" H 2600 2150 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 2600 2150 50  0001 C CNN
 F 3 "~" H 2600 2150 50  0001 C CNN
 	1    2600 1950
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Diode:BAV70 D11
@@ -126,7 +126,7 @@ F 1 "8" H 3800 1800 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 3800 2150 50  0001 C CNN
 F 3 "~" H 3800 2150 50  0001 C CNN
 	1    3800 1950
-	-1   0    0    1   
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	2800 1950 2900 1950
@@ -145,7 +145,7 @@ F 1 "4" H 2600 2700 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 2600 2700 50  0001 C CNN
 F 3 "~" H 2600 2700 50  0001 C CNN
 	1    2600 2500
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Diode:BAV70 D21
@@ -167,7 +167,7 @@ F 1 "5" H 3800 2350 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 3800 2700 50  0001 C CNN
 F 3 "~" H 3800 2700 50  0001 C CNN
 	1    3800 2500
-	-1   0    0    1   
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	2800 2500 2900 2500
@@ -186,7 +186,7 @@ F 1 "1" H 2600 3250 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 2600 3250 50  0001 C CNN
 F 3 "~" H 2600 3250 50  0001 C CNN
 	1    2600 3050
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Diode:BAV70 D31
@@ -208,7 +208,7 @@ F 1 "2" H 3800 2900 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 3800 3250 50  0001 C CNN
 F 3 "~" H 3800 3250 50  0001 C CNN
 	1    3800 3050
-	-1   0    0    1   
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	2800 3050 2900 3050
@@ -227,7 +227,7 @@ F 1 "CCD" H 3100 3700 50  0000 C CNN
 F 2 "Custom_Footprints:SOT-23_Annotated" H 3200 3600 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 3200 3600 50  0001 C CNN
 	1    3200 3600
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	2800 3600 2900 3600
@@ -242,7 +242,7 @@ F 1 "Mult" H 4450 1600 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 4450 1600 50  0001 C CNN
 F 3 "~" H 4450 1600 50  0001 C CNN
 	1    4450 1400
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Diode:BAV70 D2
@@ -264,7 +264,7 @@ F 1 "Sub" H 5650 1250 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 5650 1600 50  0001 C CNN
 F 3 "~" H 5650 1600 50  0001 C CNN
 	1    5650 1400
-	-1   0    0    1   
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	4650 1400 4750 1400
@@ -283,7 +283,7 @@ F 1 "9" H 4450 2150 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 4450 2150 50  0001 C CNN
 F 3 "~" H 4450 2150 50  0001 C CNN
 	1    4450 1950
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Diode:BAV70 D12
@@ -305,7 +305,7 @@ F 1 "Plus" H 6000 1800 50  0000 C CNN
 F 2 "MX_Only:MXOnly-2U-NoLED" H 5650 2150 50  0001 C CNN
 F 3 "~" H 5650 2150 50  0001 C CNN
 	1    5650 1950
-	-1   0    0    1   
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	4650 1950 4750 1950
@@ -324,7 +324,7 @@ F 1 "6" H 4450 2700 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 4450 2700 50  0001 C CNN
 F 3 "~" H 4450 2700 50  0001 C CNN
 	1    4450 2500
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Diode:BAV70 D22
@@ -350,7 +350,7 @@ F 1 "3" H 4450 3250 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 4450 3250 50  0001 C CNN
 F 3 "~" H 4450 3250 50  0001 C CNN
 	1    4450 3050
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Diode:BAV70 D32
@@ -361,7 +361,7 @@ F 1 "CCD" H 4950 3150 50  0000 C CNN
 F 2 "Custom_Footprints:SOT-23_Annotated" H 5050 3050 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 5050 3050 50  0001 C CNN
 	1    5050 3050
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push K63
@@ -372,7 +372,7 @@ F 1 "Enter" H 5950 2900 50  0000 C CNN
 F 2 "MX_Only:MXOnly-2U-NoLED" H 5650 3250 50  0001 C CNN
 F 3 "~" H 5650 3250 50  0001 C CNN
 	1    5650 3050
-	-1   0    0    1   
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	4650 3050 4750 3050
@@ -391,7 +391,7 @@ F 1 "Dot" H 4450 3800 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 4450 3800 50  0001 C CNN
 F 3 "~" H 4450 3800 50  0001 C CNN
 	1    4450 3600
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Diode:BAV70 D42
@@ -402,7 +402,7 @@ F 1 "CCD" H 4950 3700 50  0000 C CNN
 F 2 "Custom_Footprints:SOT-23_Annotated" H 5050 3600 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 5050 3600 50  0001 C CNN
 	1    5050 3600
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	4650 3600 4750 3600
@@ -516,7 +516,7 @@ F 1 "Win" H 7500 3450 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1.25U-NoLED" H 7500 3800 50  0001 C CNN
 F 3 "~" H 7500 3800 50  0001 C CNN
 	1    7500 3600
-	-1   0    0    1   
+	1    0    0    1   
 $EndComp
 $Comp
 L Diode:BAV70 D43
@@ -527,7 +527,7 @@ F 1 "CCD" H 6800 3700 50  0000 C CNN
 F 2 "Custom_Footprints:SOT-23_Annotated" H 6900 3600 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 6900 3600 50  0001 C CNN
 	1    6900 3600
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push K83
@@ -538,7 +538,7 @@ F 1 "Ctrl" H 6300 3800 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1.25U-NoLED" H 6300 3800 50  0001 C CNN
 F 3 "~" H 6300 3800 50  0001 C CNN
 	1    6300 3600
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	6100 3050 6100 2950
@@ -557,7 +557,7 @@ F 1 "Shift" H 7500 2900 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 7500 3250 50  0001 C CNN
 F 3 "~" H 7500 3250 50  0001 C CNN
 	1    7500 3050
-	-1   0    0    1   
+	1    0    0    1   
 $EndComp
 $Comp
 L Diode:BAV70 D33
@@ -568,7 +568,7 @@ F 1 "CCD" H 6800 3150 50  0000 C CNN
 F 2 "Custom_Footprints:SOT-23_Annotated" H 6900 3050 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 6900 3050 50  0001 C CNN
 	1    6900 3050
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push K64
@@ -579,7 +579,7 @@ F 1 "Shift" H 6000 3050 50  0000 C CNN
 F 2 "MX_Only:MXOnly-2.25U-NoLED" H 6300 3250 50  0001 C CNN
 F 3 "~" H 6300 3250 50  0001 C CNN
 	1    6300 3050
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	6100 2500 6100 2400
@@ -598,7 +598,7 @@ F 1 "A" H 7500 2350 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 7500 2700 50  0001 C CNN
 F 3 "~" H 7500 2700 50  0001 C CNN
 	1    7500 2500
-	-1   0    0    1   
+	1    0    0    1   
 $EndComp
 $Comp
 L Diode:BAV70 D23
@@ -620,7 +620,7 @@ F 1 "Caps" H 6000 2550 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1.75U-NoLED" H 6300 2700 50  0001 C CNN
 F 3 "~" H 6300 2700 50  0001 C CNN
 	1    6300 2500
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	6100 1950 6100 1850
@@ -639,7 +639,7 @@ F 1 "Q" H 7500 1800 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 7500 2150 50  0001 C CNN
 F 3 "~" H 7500 2150 50  0001 C CNN
 	1    7500 1950
-	-1   0    0    1   
+	1    0    0    1   
 $EndComp
 $Comp
 L Diode:BAV70 D13
@@ -661,7 +661,7 @@ F 1 "Tab" H 6300 2150 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1.5U-NoLED" H 6300 2150 50  0001 C CNN
 F 3 "~" H 6300 2150 50  0001 C CNN
 	1    6300 1950
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	6100 1400 6100 1300
@@ -680,7 +680,7 @@ F 1 "1" H 7500 1250 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 7500 1600 50  0001 C CNN
 F 3 "~" H 7500 1600 50  0001 C CNN
 	1    7500 1400
-	-1   0    0    1   
+	1    0    0    1   
 $EndComp
 $Comp
 L Diode:BAV70 D3
@@ -702,7 +702,7 @@ F 1 "Esc" H 6300 1600 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 6300 1600 50  0001 C CNN
 F 3 "~" H 6300 1600 50  0001 C CNN
 	1    6300 1400
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	6100 3500 4250 3500
@@ -731,7 +731,7 @@ F 1 "2" H 8150 1600 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 8150 1600 50  0001 C CNN
 F 3 "~" H 8150 1600 50  0001 C CNN
 	1    8150 1400
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Diode:BAV70 D4
@@ -753,7 +753,7 @@ F 1 "3" H 9350 1250 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 9350 1600 50  0001 C CNN
 F 3 "~" H 9350 1600 50  0001 C CNN
 	1    9350 1400
-	-1   0    0    1   
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	8350 1400 8450 1400
@@ -772,7 +772,7 @@ F 1 "W" H 8150 2150 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 8150 2150 50  0001 C CNN
 F 3 "~" H 8150 2150 50  0001 C CNN
 	1    8150 1950
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Diode:BAV70 D14
@@ -794,7 +794,7 @@ F 1 "E" H 9350 1800 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 9350 2150 50  0001 C CNN
 F 3 "~" H 9350 2150 50  0001 C CNN
 	1    9350 1950
-	-1   0    0    1   
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	8350 1950 8450 1950
@@ -813,7 +813,7 @@ F 1 "S" H 8150 2700 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 8150 2700 50  0001 C CNN
 F 3 "~" H 8150 2700 50  0001 C CNN
 	1    8150 2500
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Diode:BAV70 D24
@@ -835,7 +835,7 @@ F 1 "D" H 9350 2350 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 9350 2700 50  0001 C CNN
 F 3 "~" H 9350 2700 50  0001 C CNN
 	1    9350 2500
-	-1   0    0    1   
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	8350 2500 8450 2500
@@ -854,7 +854,7 @@ F 1 "Z" H 8150 3250 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 8150 3250 50  0001 C CNN
 F 3 "~" H 8150 3250 50  0001 C CNN
 	1    8150 3050
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Diode:BAV70 D34
@@ -876,7 +876,7 @@ F 1 "X" H 9350 2900 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 9350 3250 50  0001 C CNN
 F 3 "~" H 9350 3250 50  0001 C CNN
 	1    9350 3050
-	-1   0    0    1   
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	8350 3050 8450 3050
@@ -895,7 +895,7 @@ F 1 "Alt" H 8150 3800 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1.25U-NoLED" H 8150 3800 50  0001 C CNN
 F 3 "~" H 8150 3800 50  0001 C CNN
 	1    8150 3600
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Diode:BAV70 D44
@@ -906,7 +906,7 @@ F 1 "CCD" H 8650 3700 50  0000 C CNN
 F 2 "Custom_Footprints:SOT-23_Annotated" H 8750 3600 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 8750 3600 50  0001 C CNN
 	1    8750 3600
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	8350 3600 8450 3600
@@ -980,7 +980,7 @@ F 1 "V" H 11200 2900 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 11200 3250 50  0001 C CNN
 F 3 "~" H 11200 3250 50  0001 C CNN
 	1    11200 3050
-	-1   0    0    1   
+	1    0    0    1   
 $EndComp
 $Comp
 L Diode:BAV70 D35
@@ -1002,7 +1002,7 @@ F 1 "C" H 10000 3250 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 10000 3250 50  0001 C CNN
 F 3 "~" H 10000 3250 50  0001 C CNN
 	1    10000 3050
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	9800 2500 9800 2400
@@ -1021,7 +1021,7 @@ F 1 "G" H 11200 2350 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 11200 2700 50  0001 C CNN
 F 3 "~" H 11200 2700 50  0001 C CNN
 	1    11200 2500
-	-1   0    0    1   
+	1    0    0    1   
 $EndComp
 $Comp
 L Diode:BAV70 D25
@@ -1043,7 +1043,7 @@ F 1 "F" H 10000 2700 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 10000 2700 50  0001 C CNN
 F 3 "~" H 10000 2700 50  0001 C CNN
 	1    10000 2500
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	9800 1950 9800 1850
@@ -1062,7 +1062,7 @@ F 1 "T" H 11200 1800 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 11200 2150 50  0001 C CNN
 F 3 "~" H 11200 2150 50  0001 C CNN
 	1    11200 1950
-	-1   0    0    1   
+	1    0    0    1   
 $EndComp
 $Comp
 L Diode:BAV70 D15
@@ -1084,7 +1084,7 @@ F 1 "R" H 10000 2150 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 10000 2150 50  0001 C CNN
 F 3 "~" H 10000 2150 50  0001 C CNN
 	1    10000 1950
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	9800 1400 9800 1300
@@ -1103,7 +1103,7 @@ F 1 "5" H 11200 1250 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 11200 1600 50  0001 C CNN
 F 3 "~" H 11200 1600 50  0001 C CNN
 	1    11200 1400
-	-1   0    0    1   
+	1    0    0    1   
 $EndComp
 $Comp
 L Diode:BAV70 D5
@@ -1125,7 +1125,7 @@ F 1 "4" H 10000 1600 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 10000 1600 50  0001 C CNN
 F 3 "~" H 10000 1600 50  0001 C CNN
 	1    10000 1400
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	9800 2950 7950 2950
@@ -1152,7 +1152,7 @@ F 1 "6" H 11850 1600 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 11850 1600 50  0001 C CNN
 F 3 "~" H 11850 1600 50  0001 C CNN
 	1    11850 1400
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Diode:BAV70 D6
@@ -1174,7 +1174,7 @@ F 1 "7" H 13050 1250 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 13050 1600 50  0001 C CNN
 F 3 "~" H 13050 1600 50  0001 C CNN
 	1    13050 1400
-	-1   0    0    1   
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	12050 1400 12150 1400
@@ -1193,7 +1193,7 @@ F 1 "Y" H 11850 2150 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 11850 2150 50  0001 C CNN
 F 3 "~" H 11850 2150 50  0001 C CNN
 	1    11850 1950
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Diode:BAV70 D16
@@ -1215,7 +1215,7 @@ F 1 "U" H 13050 1800 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 13050 2150 50  0001 C CNN
 F 3 "~" H 13050 2150 50  0001 C CNN
 	1    13050 1950
-	-1   0    0    1   
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	12050 1950 12150 1950
@@ -1234,7 +1234,7 @@ F 1 "H" H 11850 2700 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 11850 2700 50  0001 C CNN
 F 3 "~" H 11850 2700 50  0001 C CNN
 	1    11850 2500
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Diode:BAV70 D26
@@ -1256,7 +1256,7 @@ F 1 "J" H 13050 2350 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 13050 2700 50  0001 C CNN
 F 3 "~" H 13050 2700 50  0001 C CNN
 	1    13050 2500
-	-1   0    0    1   
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	12050 2500 12150 2500
@@ -1275,7 +1275,7 @@ F 1 "B" H 11850 3250 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 11850 3250 50  0001 C CNN
 F 3 "~" H 11850 3250 50  0001 C CNN
 	1    11850 3050
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Diode:BAV70 D36
@@ -1297,7 +1297,7 @@ F 1 "N" H 13050 2900 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 13050 3250 50  0001 C CNN
 F 3 "~" H 13050 3250 50  0001 C CNN
 	1    13050 3050
-	-1   0    0    1   
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	12050 3050 12150 3050
@@ -1316,7 +1316,7 @@ F 1 "CCD" H 12350 3700 50  0000 C CNN
 F 2 "Custom_Footprints:SOT-23_Annotated" H 12450 3600 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 12450 3600 50  0001 C CNN
 	1    12450 3600
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	12050 3600 12150 3600
@@ -1386,7 +1386,7 @@ F 1 "Comm" H 14900 2900 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 14900 3250 50  0001 C CNN
 F 3 "~" H 14900 3250 50  0001 C CNN
 	1    14900 3050
-	-1   0    0    1   
+	1    0    0    1   
 $EndComp
 $Comp
 L Diode:BAV70 D37
@@ -1408,7 +1408,7 @@ F 1 "M" H 13700 3250 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 13700 3250 50  0001 C CNN
 F 3 "~" H 13700 3250 50  0001 C CNN
 	1    13700 3050
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	13500 2500 13500 2400
@@ -1427,7 +1427,7 @@ F 1 "L" H 14900 2350 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 14900 2700 50  0001 C CNN
 F 3 "~" H 14900 2700 50  0001 C CNN
 	1    14900 2500
-	-1   0    0    1   
+	1    0    0    1   
 $EndComp
 $Comp
 L Diode:BAV70 D27
@@ -1449,7 +1449,7 @@ F 1 "K" H 13700 2700 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 13700 2700 50  0001 C CNN
 F 3 "~" H 13700 2700 50  0001 C CNN
 	1    13700 2500
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	13500 1950 13500 1850
@@ -1468,7 +1468,7 @@ F 1 "O" H 14900 1800 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 14900 2150 50  0001 C CNN
 F 3 "~" H 14900 2150 50  0001 C CNN
 	1    14900 1950
-	-1   0    0    1   
+	1    0    0    1   
 $EndComp
 $Comp
 L Diode:BAV70 D17
@@ -1490,7 +1490,7 @@ F 1 "I" H 13700 2150 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 13700 2150 50  0001 C CNN
 F 3 "~" H 13700 2150 50  0001 C CNN
 	1    13700 1950
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	13500 1400 13500 1300
@@ -1509,7 +1509,7 @@ F 1 "9" H 14900 1250 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 14900 1600 50  0001 C CNN
 F 3 "~" H 14900 1600 50  0001 C CNN
 	1    14900 1400
-	-1   0    0    1   
+	1    0    0    1   
 $EndComp
 $Comp
 L Diode:BAV70 D7
@@ -1531,7 +1531,7 @@ F 1 "8" H 13700 1600 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 13700 1600 50  0001 C CNN
 F 3 "~" H 13700 1600 50  0001 C CNN
 	1    13700 1400
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	13500 2950 11650 2950
@@ -1558,7 +1558,7 @@ F 1 "0" H 15550 1600 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 15550 1600 50  0001 C CNN
 F 3 "~" H 15550 1600 50  0001 C CNN
 	1    15550 1400
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Diode:BAV70 D8
@@ -1580,7 +1580,7 @@ F 1 "Sub" H 16750 1250 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 16750 1600 50  0001 C CNN
 F 3 "~" H 16750 1600 50  0001 C CNN
 	1    16750 1400
-	-1   0    0    1   
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	15750 1400 15850 1400
@@ -1599,7 +1599,7 @@ F 1 "P" H 15550 2150 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 15550 2150 50  0001 C CNN
 F 3 "~" H 15550 2150 50  0001 C CNN
 	1    15550 1950
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Diode:BAV70 D18
@@ -1621,7 +1621,7 @@ F 1 "LBrac" H 16750 1800 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 16750 2150 50  0001 C CNN
 F 3 "~" H 16750 2150 50  0001 C CNN
 	1    16750 1950
-	-1   0    0    1   
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	15750 1950 15850 1950
@@ -1640,7 +1640,7 @@ F 1 "Scln" H 15550 2700 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 15550 2700 50  0001 C CNN
 F 3 "~" H 15550 2700 50  0001 C CNN
 	1    15550 2500
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Diode:BAV70 D28
@@ -1662,7 +1662,7 @@ F 1 "Quote" H 16750 2350 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 16750 2700 50  0001 C CNN
 F 3 "~" H 16750 2700 50  0001 C CNN
 	1    16750 2500
-	-1   0    0    1   
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	15750 2500 15850 2500
@@ -1681,7 +1681,7 @@ F 1 "Dot" H 15550 3250 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 15550 3250 50  0001 C CNN
 F 3 "~" H 15550 3250 50  0001 C CNN
 	1    15550 3050
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Diode:BAV70 D38
@@ -1703,7 +1703,7 @@ F 1 "Slash" H 16750 2900 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 16750 3250 50  0001 C CNN
 F 3 "~" H 16750 3250 50  0001 C CNN
 	1    16750 3050
-	-1   0    0    1   
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	15750 3050 15850 3050
@@ -1722,7 +1722,7 @@ F 1 "Alt" H 15250 3650 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 15550 3800 50  0001 C CNN
 F 3 "~" H 15550 3800 50  0001 C CNN
 	1    15550 3600
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Diode:BAV70 D46
@@ -1733,7 +1733,7 @@ F 1 "CCD" H 16050 3700 50  0000 C CNN
 F 2 "Custom_Footprints:SOT-23_Annotated" H 16150 3600 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 16150 3600 50  0001 C CNN
 	1    16150 3600
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push K88
@@ -1744,7 +1744,7 @@ F 1 "Win" H 16750 3450 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 16750 3800 50  0001 C CNN
 F 3 "~" H 16750 3800 50  0001 C CNN
 	1    16750 3600
-	-1   0    0    1   
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	15750 3600 15850 3600
@@ -1823,7 +1823,7 @@ F 1 "Left" H 18600 3450 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 18600 3800 50  0001 C CNN
 F 3 "~" H 18600 3800 50  0001 C CNN
 	1    18600 3600
-	-1   0    0    1   
+	1    0    0    1   
 $EndComp
 $Comp
 L Diode:BAV70 D47
@@ -1834,7 +1834,7 @@ F 1 "CCD" H 17900 3700 50  0000 C CNN
 F 2 "Custom_Footprints:SOT-23_Annotated" H 18000 3600 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 18000 3600 50  0001 C CNN
 	1    18000 3600
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push K89
@@ -1845,7 +1845,7 @@ F 1 "Ctrl" H 17100 3650 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 17400 3800 50  0001 C CNN
 F 3 "~" H 17400 3800 50  0001 C CNN
 	1    17400 3600
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	17200 3050 17200 2950
@@ -1860,7 +1860,7 @@ F 1 "CCD" H 17900 3150 50  0000 C CNN
 F 2 "Custom_Footprints:SOT-23_Annotated" H 18000 3050 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 18000 3050 50  0001 C CNN
 	1    18000 3050
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push K76
@@ -1871,7 +1871,7 @@ F 1 "Shift" H 17400 3250 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1.75U-NoLED" H 17400 3250 50  0001 C CNN
 F 3 "~" H 17400 3250 50  0001 C CNN
 	1    17400 3050
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	18800 2500 18800 2600
@@ -1883,10 +1883,10 @@ U 1 1 5F62246E
 P 18600 2500
 F 0 "K57" H 18600 2250 50  0000 C CNN
 F 1 "Enter" H 18600 2350 50  0000 C CNN
-F 2 "MX_Only:MXOnly-2U-NoLED" H 18600 2700 50  0001 C CNN
+F 2 "MX_Only:MXOnly-2.25U-NoLED" H 18600 2700 50  0001 C CNN
 F 3 "~" H 18600 2700 50  0001 C CNN
 	1    18600 2500
-	-1   0    0    1   
+	1    0    0    1   
 $EndComp
 $Comp
 L Diode:BAV70 D29
@@ -1927,7 +1927,7 @@ F 1 "Rbrac" H 17400 2150 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 17400 2150 50  0001 C CNN
 F 3 "~" H 17400 2150 50  0001 C CNN
 	1    17400 1950
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	17200 1400 17200 1300
@@ -1946,7 +1946,7 @@ F 1 "Backspace" H 18600 1250 50  0000 C CNN
 F 2 "MX_Only:MXOnly-2U-NoLED" H 18600 1600 50  0001 C CNN
 F 3 "~" H 18600 1600 50  0001 C CNN
 	1    18600 1400
-	-1   0    0    1   
+	1    0    0    1   
 $EndComp
 $Comp
 L Diode:BAV70 D9
@@ -1968,7 +1968,7 @@ F 1 "Plus" H 17400 1600 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 17400 1600 50  0001 C CNN
 F 3 "~" H 17400 1600 50  0001 C CNN
 	1    17400 1400
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	17200 3500 15350 3500
@@ -1994,7 +1994,7 @@ F 1 "Del" H 19250 1600 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 19250 1600 50  0001 C CNN
 F 3 "~" H 19250 1600 50  0001 C CNN
 	1    19250 1400
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Diode:BAV70 D10
@@ -2016,7 +2016,7 @@ F 1 "Mute" H 20450 1250 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 20450 1600 50  0001 C CNN
 F 3 "~" H 20450 1600 50  0001 C CNN
 	1    20450 1400
-	-1   0    0    1   
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	19450 1400 19550 1400
@@ -2046,7 +2046,7 @@ F 1 "Del" H 20450 1800 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 20450 2150 50  0001 C CNN
 F 3 "~" H 20450 2150 50  0001 C CNN
 	1    20450 1950
-	-1   0    0    1   
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	20150 1950 20250 1950
@@ -2063,17 +2063,6 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 19850 250
 	1    19850 2500
 	1    0    0    -1  
 $EndComp
-$Comp
-L Switch:SW_Push K58
-U 1 1 5F65CB23
-P 20450 2500
-F 0 "K58" H 20450 2250 50  0000 C CNN
-F 1 "End" H 20450 2350 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 20450 2700 50  0001 C CNN
-F 3 "~" H 20450 2700 50  0001 C CNN
-	1    20450 2500
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	20150 2500 20250 2500
 Wire Wire Line
@@ -2087,7 +2076,7 @@ F 1 "Up" H 19250 3250 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 19250 3250 50  0001 C CNN
 F 3 "~" H 19250 3250 50  0001 C CNN
 	1    19250 3050
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Diode:BAV70 D40
@@ -2109,7 +2098,7 @@ F 1 "Home" H 20450 2900 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 20450 3250 50  0001 C CNN
 F 3 "~" H 20450 3250 50  0001 C CNN
 	1    20450 3050
-	-1   0    0    1   
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	19450 3050 19550 3050
@@ -2128,7 +2117,7 @@ F 1 "Down" H 19250 3800 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 19250 3800 50  0001 C CNN
 F 3 "~" H 19250 3800 50  0001 C CNN
 	1    19250 3600
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Diode:BAV70 D48
@@ -2139,7 +2128,7 @@ F 1 "CCD" H 19750 3700 50  0000 C CNN
 F 2 "Custom_Footprints:SOT-23_Annotated" H 19850 3600 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 19850 3600 50  0001 C CNN
 	1    19850 3600
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push K92
@@ -2150,7 +2139,7 @@ F 1 "Right" H 20450 3450 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 20450 3800 50  0001 C CNN
 F 3 "~" H 20450 3800 50  0001 C CNN
 	1    20450 3600
-	-1   0    0    1   
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	19450 3600 19550 3600
@@ -2485,190 +2474,172 @@ DB-
 $Comp
 L Device:R_Small R2
 U 1 1 5FA8BEE7
-P 8850 5900
-F 0 "R2" V 8750 5900 30  0000 C CNN
-F 1 "5.1kΩ" V 8850 5900 30  0000 C CNN
-F 2 "Custom_Footprints:R_0603_Annotated" H 8850 5900 50  0001 C CNN
-F 3 "~" H 8850 5900 50  0001 C CNN
-	1    8850 5900
+P 8750 6200
+F 0 "R2" V 8650 6200 30  0000 C CNN
+F 1 "5.1kΩ" V 8750 6200 30  0000 C CNN
+F 2 "Custom_Footprints:R_0603_Annotated" H 8750 6200 50  0001 C CNN
+F 3 "~" H 8750 6200 50  0001 C CNN
+	1    8750 6200
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R_Small R3
 U 1 1 5FA8BEED
-P 8850 6000
-F 0 "R3" V 8950 6000 30  0000 C CNN
-F 1 "5.1kΩ" V 8850 6000 30  0000 C CNN
-F 2 "Custom_Footprints:R_0603_Annotated" H 8850 6000 50  0001 C CNN
-F 3 "~" H 8850 6000 50  0001 C CNN
-	1    8850 6000
+P 8750 6300
+F 0 "R3" V 8850 6300 30  0000 C CNN
+F 1 "5.1kΩ" V 8750 6300 30  0000 C CNN
+F 2 "Custom_Footprints:R_0603_Annotated" H 8750 6300 50  0001 C CNN
+F 3 "~" H 8750 6300 50  0001 C CNN
+	1    8750 6300
 	0    1    1    0   
 $EndComp
-$Comp
-L Connector:USB_C_Receptacle_USB2.0 J1
-U 1 1 5FAAB63E
-P 8000 6300
-F 0 "J1" H 8107 7167 50  0000 C CNN
-F 1 "USB C" H 8107 7076 50  0000 C CNN
-F 2 "Custom_Footprints:Mid_Mount-USB_C_HandSoldering" H 8150 6300 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 8150 6300 50  0001 C CNN
-	1    8000 6300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	8600 6400 8800 6400
+	8500 6650 8700 6650
 Wire Wire Line
-	8600 6300 8800 6300
+	8500 6550 8700 6550
 Wire Wire Line
-	8600 6200 8800 6200
+	8500 6450 8700 6450
 Wire Wire Line
-	8800 6200 8800 6300
+	8700 6450 8700 6550
 Wire Wire Line
-	8600 6500 8800 6500
+	8500 6750 8700 6750
 Wire Wire Line
-	8800 6500 8800 6400
+	8700 6750 8700 6650
 Wire Wire Line
-	8800 6400 9050 6400
+	8700 6650 8950 6650
 Wire Wire Line
-	8800 6300 9050 6300
-Text GLabel 9050 6300 2    50   Input ~ 0
+	8700 6550 8950 6550
+Text GLabel 8950 6650 2    50   Input ~ 0
 DB-
-Text GLabel 9050 6400 2    50   Input ~ 0
+Text GLabel 8950 6550 2    50   Input ~ 0
 DB+
-Connection ~ 8800 6300
-Connection ~ 8800 6400
+Connection ~ 8700 6550
+Connection ~ 8700 6650
 Wire Wire Line
-	8600 6000 8750 6000
+	8500 6300 8650 6300
 Wire Wire Line
-	8600 5900 8750 5900
+	8500 6200 8650 6200
 Wire Wire Line
-	8950 5900 9200 5900
+	8850 6200 9100 6200
 Wire Wire Line
-	9200 5900 9200 5950
+	9100 6200 9100 6250
 Wire Wire Line
-	9200 6000 8950 6000
+	9100 6300 8850 6300
 $Comp
 L power:GND #PWR07
 U 1 1 5FC3C959
-P 9300 5950
-F 0 "#PWR07" H 9300 5700 50  0001 C CNN
-F 1 "GND" H 9305 5777 50  0000 C CNN
-F 2 "" H 9300 5950 50  0001 C CNN
-F 3 "" H 9300 5950 50  0001 C CNN
-	1    9300 5950
+P 9200 6250
+F 0 "#PWR07" H 9200 6000 50  0001 C CNN
+F 1 "GND" H 9205 6077 50  0000 C CNN
+F 2 "" H 9200 6250 50  0001 C CNN
+F 3 "" H 9200 6250 50  0001 C CNN
+	1    9200 6250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9300 5950 9200 5950
-Connection ~ 9200 5950
+	9200 6250 9100 6250
+Connection ~ 9100 6250
 Wire Wire Line
-	9200 5950 9200 6000
+	9100 6250 9100 6300
 $Comp
 L power:VCC #PWR04
 U 1 1 5FC61052
-P 8750 5700
-F 0 "#PWR04" H 8750 5550 50  0001 C CNN
-F 1 "VCC" H 8765 5873 50  0000 C CNN
-F 2 "" H 8750 5700 50  0001 C CNN
-F 3 "" H 8750 5700 50  0001 C CNN
-	1    8750 5700
+P 8800 6000
+F 0 "#PWR04" H 8800 5850 50  0001 C CNN
+F 1 "VCC" H 8815 6173 50  0000 C CNN
+F 2 "" H 8800 6000 50  0001 C CNN
+F 3 "" H 8800 6000 50  0001 C CNN
+	1    8800 6000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8600 5700 8750 5700
+	8650 6000 8800 6000
 $Comp
 L Device:Polyfuse_Small F1
 U 1 1 5FC860A2
-P 9100 5700
-F 0 "F1" V 8895 5700 50  0000 C CNN
-F 1 "500mA" V 8986 5700 50  0000 C CNN
-F 2 "Custom_Footprints:Fuse_1206_Annotated" H 9150 5500 50  0001 L CNN
-F 3 "~" H 9100 5700 50  0001 C CNN
-	1    9100 5700
+P 9150 6000
+F 0 "F1" V 8945 6000 50  0000 C CNN
+F 1 "500mA" V 9036 6000 50  0000 C CNN
+F 2 "Custom_Footprints:Fuse_1206_Annotated" H 9200 5800 50  0001 L CNN
+F 3 "~" H 9150 6000 50  0001 C CNN
+	1    9150 6000
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8750 5700 9000 5700
-Connection ~ 8750 5700
+	8800 6000 9050 6000
+Connection ~ 8800 6000
 Wire Wire Line
-	9200 5700 9450 5700
+	9250 6000 9500 6000
 $Comp
 L power:+5V #PWR05
 U 1 1 5FCD0085
-P 9450 5700
-F 0 "#PWR05" H 9450 5550 50  0001 C CNN
-F 1 "+5V" H 9465 5873 50  0000 C CNN
-F 2 "" H 9450 5700 50  0001 C CNN
-F 3 "" H 9450 5700 50  0001 C CNN
-	1    9450 5700
+P 9500 6000
+F 0 "#PWR05" H 9500 5850 50  0001 C CNN
+F 1 "+5V" H 9515 6173 50  0000 C CNN
+F 2 "" H 9500 6000 50  0001 C CNN
+F 3 "" H 9500 6000 50  0001 C CNN
+	1    9500 6000
 	1    0    0    -1  
 $EndComp
-NoConn ~ 8600 6800
-NoConn ~ 8600 6900
 $Comp
 L power:GND #PWR011
 U 1 1 5FD17790
-P 8000 7350
-F 0 "#PWR011" H 8000 7100 50  0001 C CNN
-F 1 "GND" H 8005 7177 50  0000 C CNN
-F 2 "" H 8000 7350 50  0001 C CNN
-F 3 "" H 8000 7350 50  0001 C CNN
-	1    8000 7350
+P 8100 7650
+F 0 "#PWR011" H 8100 7400 50  0001 C CNN
+F 1 "GND" H 8105 7477 50  0000 C CNN
+F 2 "" H 8100 7650 50  0001 C CNN
+F 3 "" H 8100 7650 50  0001 C CNN
+	1    8100 7650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8000 7350 8000 7200
+	8100 7650 8100 7500
 $Comp
 L Device:R_Small R6
 U 1 1 5FD3D34F
-P 7600 7400
-F 0 "R6" V 7500 7400 30  0000 C CNN
-F 1 "1MΩ" V 7600 7400 30  0000 C CNN
-F 2 "Custom_Footprints:R_0603_Annotated" H 7600 7400 50  0001 C CNN
-F 3 "~" H 7600 7400 50  0001 C CNN
-	1    7600 7400
+P 7700 7700
+F 0 "R6" V 7600 7700 30  0000 C CNN
+F 1 "1MΩ" V 7700 7700 30  0000 C CNN
+F 2 "Custom_Footprints:R_0603_Annotated" H 7700 7700 50  0001 C CNN
+F 3 "~" H 7700 7700 50  0001 C CNN
+	1    7700 7700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C6
 U 1 1 5FD606FC
-P 7800 7400
-F 0 "C6" H 7800 7450 30  0000 L CNN
-F 1 "4.7nF" H 7800 7350 30  0000 L CNN
-F 2 "Custom_Footprints:C_0603_Annotated" H 7800 7400 50  0001 C CNN
-F 3 "~" H 7800 7400 50  0001 C CNN
-	1    7800 7400
+P 7900 7700
+F 0 "C6" H 7900 7750 30  0000 L CNN
+F 1 "4.7nF" H 7900 7650 30  0000 L CNN
+F 2 "Custom_Footprints:C_0603_Annotated" H 7900 7700 50  0001 C CNN
+F 3 "~" H 7900 7700 50  0001 C CNN
+	1    7900 7700
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	7600 7300 7600 7200
+	7700 7600 7700 7500
 Wire Wire Line
-	7600 7200 7700 7200
+	7900 7500 7900 7600
 Wire Wire Line
-	7800 7200 7800 7300
+	7700 7800 7700 7900
 Wire Wire Line
-	7600 7500 7600 7600
+	7700 7900 7800 7900
 Wire Wire Line
-	7600 7600 7700 7600
-Wire Wire Line
-	7800 7600 7800 7500
-Connection ~ 7700 7200
-Wire Wire Line
-	7700 7200 7800 7200
+	7900 7900 7900 7800
 $Comp
 L power:GND #PWR013
 U 1 1 5FDF9FB1
-P 7700 7600
-F 0 "#PWR013" H 7700 7350 50  0001 C CNN
-F 1 "GND" H 7705 7427 50  0000 C CNN
-F 2 "" H 7700 7600 50  0001 C CNN
-F 3 "" H 7700 7600 50  0001 C CNN
-	1    7700 7600
+P 7800 7900
+F 0 "#PWR013" H 7800 7650 50  0001 C CNN
+F 1 "GND" H 7805 7727 50  0000 C CNN
+F 2 "" H 7800 7900 50  0001 C CNN
+F 3 "" H 7800 7900 50  0001 C CNN
+	1    7800 7900
 	1    0    0    -1  
 $EndComp
-Connection ~ 7700 7600
+Connection ~ 7800 7900
 Wire Wire Line
-	7700 7600 7800 7600
+	7800 7900 7900 7900
 Wire Wire Line
 	2500 6850 2500 6800
 Wire Wire Line
@@ -2802,7 +2773,7 @@ F 1 "Space" H 11850 3800 50  0000 C CNN
 F 2 "MX_Only:MXOnly-6.25U-NoLED" H 11850 3800 50  0001 C CNN
 F 3 "~" H 11850 3800 50  0001 C CNN
 	1    11850 3600
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	11650 3500 7950 3500
@@ -2820,7 +2791,7 @@ F 1 "Alt" H 15250 3350 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1.5U-NoLED" H 15550 3600 50  0001 C CNN
 F 3 "~" H 15550 3600 50  0001 C CNN
 	1    15550 3400
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	15350 3400 15350 3500
@@ -2837,7 +2808,7 @@ F 1 "Ctrl" H 17100 3350 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1.5U-NoLED" H 17400 3550 50  0001 C CNN
 F 3 "~" H 17400 3550 50  0001 C CNN
 	1    17400 3350
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	17200 3350 17200 3500
@@ -2853,7 +2824,7 @@ F 1 "Backspace" H 18200 1650 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 18600 1850 50  0001 C CNN
 F 3 "~" H 18600 1850 50  0001 C CNN
 	1    18600 1650
-	-1   0    0    1   
+	1    0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push K39
@@ -2861,10 +2832,10 @@ U 1 1 5F622484
 P 18600 1950
 F 0 "K39" H 18150 1900 50  0000 C CNN
 F 1 "Pipe" H 18300 1900 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 18600 2150 50  0001 C CNN
+F 2 "MX_Only:MXOnly-1.5U-NoLED" H 18600 2150 50  0001 C CNN
 F 3 "~" H 18600 2150 50  0001 C CNN
 	1    18600 1950
-	-1   0    0    1   
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	18400 1650 18400 1400
@@ -2880,7 +2851,7 @@ F 1 "SCaps" H 6000 2250 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1.25U-NoLED" H 6300 2450 50  0001 C CNN
 F 3 "~" H 6300 2450 50  0001 C CNN
 	1    6300 2250
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	6100 2250 6100 2400
@@ -2896,7 +2867,7 @@ F 1 "Shift" H 6000 2800 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1.25U-NoLED" H 6300 3000 50  0001 C CNN
 F 3 "~" H 6300 3000 50  0001 C CNN
 	1    6300 2800
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	6100 2950 6100 2800
@@ -2912,10 +2883,112 @@ F 1 "0" H 2600 3800 50  0000 C CNN
 F 2 "MX_Only:MXOnly-2U-NoLED" H 2600 3800 50  0001 C CNN
 F 3 "~" H 2600 3800 50  0001 C CNN
 	1    2600 3600
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	2200 3700 7700 3700
 Wire Wire Line
 	4000 2600 7700 2600
+$Comp
+L usb-type-c:USB2_C_Receptacle J1
+U 1 1 5F45EAA1
+P 8100 6500
+F 0 "J1" H 8207 7317 50  0000 C CNN
+F 1 "USB C" H 8207 7226 50  0000 C CNN
+F 2 "Custom_Footprints:Mid_Mount-USB_C_HandSoldering" H 8300 6550 50  0001 C CNN
+F 3 " ~" H 8300 6550 50  0001 C CNN
+	1    8100 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 5950 8650 5950
+Wire Wire Line
+	8650 5950 8650 6000
+Wire Wire Line
+	8600 6050 8650 6050
+Wire Wire Line
+	8650 6050 8650 6000
+Connection ~ 8650 6000
+Wire Wire Line
+	7700 7500 7900 7500
+Wire Wire Line
+	7900 7500 7900 7200
+Connection ~ 7900 7500
+Wire Wire Line
+	8000 7350 8000 7500
+Wire Wire Line
+	8000 7500 8100 7500
+Wire Wire Line
+	8100 7500 8100 7350
+Connection ~ 8100 7500
+$Comp
+L Switch:SW_Push K58
+U 1 1 5F65CB23
+P 20450 2500
+F 0 "K58" H 20450 2250 50  0000 C CNN
+F 1 "End" H 20450 2350 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 20450 2700 50  0001 C CNN
+F 3 "~" H 20450 2700 50  0001 C CNN
+	1    20450 2500
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector:AVR-ISP-6 J2
+U 1 1 603AD2C9
+P 10700 6450
+F 0 "J2" H 10371 6546 50  0000 R CNN
+F 1 "ISP" H 10371 6455 50  0000 R CNN
+F 2 "Custom_Footprints:ISP_Header_Annotated" V 10450 6500 50  0001 C CNN
+F 3 " ~" H 9425 5900 50  0001 C CNN
+	1    10700 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR016
+U 1 1 603B0F5C
+P 10600 5850
+F 0 "#PWR016" H 10600 5700 50  0001 C CNN
+F 1 "+5V" H 10615 6023 50  0000 C CNN
+F 2 "" H 10600 5850 50  0001 C CNN
+F 3 "" H 10600 5850 50  0001 C CNN
+	1    10600 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10600 5850 10600 5950
+$Comp
+L power:GND #PWR017
+U 1 1 603D904B
+P 10600 7000
+F 0 "#PWR017" H 10600 6750 50  0001 C CNN
+F 1 "GND" H 10605 6827 50  0000 C CNN
+F 2 "" H 10600 7000 50  0001 C CNN
+F 3 "" H 10600 7000 50  0001 C CNN
+	1    10600 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10600 7000 10600 6850
+Text GLabel 2400 5500 0    50   Input ~ 0
+RST
+Text GLabel 11100 6550 2    50   Input ~ 0
+RST
+Text GLabel 4250 5800 2    50   Input ~ 0
+MISO
+Text GLabel 4250 5700 2    50   Input ~ 0
+MOSI
+Text GLabel 4250 5600 2    50   Input ~ 0
+SCK
+Wire Wire Line
+	4250 5800 3900 5800
+Wire Wire Line
+	3900 5700 4250 5700
+Wire Wire Line
+	3900 5600 4250 5600
+Text GLabel 11100 6250 2    50   Input ~ 0
+MISO
+Text GLabel 11100 6350 2    50   Input ~ 0
+MOSI
+Text GLabel 11100 6450 2    50   Input ~ 0
+SCK
 $EndSCHEMATC
