@@ -14,45 +14,45 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 5450 6600 2    50   Input ~ 0
+Text GLabel 3900 6800 2    50   Input ~ 0
 row0
-Text GLabel 5450 6700 2    50   Input ~ 0
+Text GLabel 3900 6900 2    50   Input ~ 0
 row1
-Text GLabel 5450 6800 2    50   Input ~ 0
+Text GLabel 3900 6000 2    50   Input ~ 0
 row2
-Text GLabel 5450 6900 2    50   Input ~ 0
+Text GLabel 3900 6200 2    50   Input ~ 0
 row3
-Text GLabel 5450 7000 2    50   Input ~ 0
+Text GLabel 3900 7000 2    50   Input ~ 0
 row4
-Text GLabel 5450 7100 2    50   Input ~ 0
+Text GLabel 3900 7200 2    50   Input ~ 0
 row5
-Text GLabel 5450 7200 2    50   Input ~ 0
+Text GLabel 3900 5900 2    50   Input ~ 0
 row6
-Text GLabel 5450 7400 2    50   Input ~ 0
+Text GLabel 3900 7400 2    50   Input ~ 0
 row8
-Text GLabel 5450 7300 2    50   Input ~ 0
+Text GLabel 3900 7100 2    50   Input ~ 0
 row7
-Text GLabel 5450 7500 2    50   Input ~ 0
+Text GLabel 3900 7300 2    50   Input ~ 0
 row9
-Text GLabel 5800 6600 2    50   Input ~ 0
+Text GLabel 3900 6100 2    50   Input ~ 0
 col0
-Text GLabel 5800 6700 2    50   Input ~ 0
+Text GLabel 3900 6400 2    50   Input ~ 0
 col1
-Text GLabel 5800 6800 2    50   Input ~ 0
+Text GLabel 3900 6500 2    50   Input ~ 0
 col2
-Text GLabel 5800 6900 2    50   Input ~ 0
+Text GLabel 3900 8400 2    50   Input ~ 0
 col3
-Text GLabel 5800 7000 2    50   Input ~ 0
+Text GLabel 3900 8300 2    50   Input ~ 0
 col4
-Text GLabel 5800 7100 2    50   Input ~ 0
+Text GLabel 3900 8200 2    50   Input ~ 0
 col5
-Text GLabel 5800 7200 2    50   Input ~ 0
+Text GLabel 3900 8100 2    50   Input ~ 0
 col6
-Text GLabel 5800 7300 2    50   Input ~ 0
+Text GLabel 3900 8000 2    50   Input ~ 0
 col7
-Text GLabel 5800 7400 2    50   Input ~ 0
+Text GLabel 3900 7900 2    50   Input ~ 0
 col8
-Text GLabel 5800 7500 2    50   Input ~ 0
+Text GLabel 3900 6700 2    50   Input ~ 0
 col9
 $Comp
 L Switch:SW_Push K1
@@ -1860,7 +1860,7 @@ F 1 "CCD" H 17900 3150 50  0000 C CNN
 F 2 "Custom_Footprints:SOT-23_Annotated" H 18000 3050 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 18000 3050 50  0001 C CNN
 	1    18000 3050
-	-1   0    0    -1  
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push K76
@@ -2991,4 +2991,47 @@ Text GLabel 11100 6350 2    50   Input ~ 0
 MOSI
 Text GLabel 11100 6450 2    50   Input ~ 0
 SCK
+$Comp
+L Device:Rotary_Encoder_Switch ENC1
+U 1 1 5F44433E
+P 20150 5200
+F 0 "ENC1" H 20150 5567 50  0000 C CNN
+F 1 "ENC" H 20150 5476 50  0000 C CNN
+F 2 "Custom_Footprints:Rotary_Encoder" H 20000 5360 50  0001 C CNN
+F 3 "~" H 20150 5460 50  0001 C CNN
+	1    20150 5200
+	1    0    0    -1  
+$EndComp
+Text GLabel 20450 5100 2    50   Input ~ 0
+S1
+Text GLabel 20450 5300 2    50   Input ~ 0
+S2
+Text GLabel 19850 5100 0    50   Input ~ 0
+ENCA
+Text GLabel 19850 5300 0    50   Input ~ 0
+ENCB
+$Comp
+L power:GND #PWR018
+U 1 1 5F44B92D
+P 19450 5200
+F 0 "#PWR018" H 19450 4950 50  0001 C CNN
+F 1 "GND" H 19455 5027 50  0000 C CNN
+F 2 "" H 19450 5200 50  0001 C CNN
+F 3 "" H 19450 5200 50  0001 C CNN
+	1    19450 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19450 5200 19850 5200
+Text GLabel 20650 1400 2    50   Input ~ 0
+S1
+Text GLabel 20250 1400 1    50   Input ~ 0
+S2
+Text GLabel 3900 7700 2    50   Input ~ 0
+ENCA
+Text GLabel 3900 5500 2    50   Input ~ 0
+ENCB
+Wire Wire Line
+	11650 3500 15350 3500
+Connection ~ 11650 3500
 $EndSCHEMATC
