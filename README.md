@@ -1,5 +1,6 @@
 # Pandamic
-A 65% mechanical keyboard with a numpad moved to the left (not mirrored)
+A 65% mechanical keyboard with a rotary encoder and numpad moved to the left (not mirrored)
+[Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/109887f27b486985edc4fb8d0afd7937)
 
 ## License
 
