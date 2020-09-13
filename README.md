@@ -5,10 +5,10 @@ A 65% mechanical keyboard with a rotary encoder and numpad moved to the left (no
 
 # Renders
 Top PCB
-![Top](https://github.com/swiftrax/Pandamic/blob/master/Images/top.svg)
+![Top](https://github.com/swiftrax/Pandamic/blob/master/PCB/Images/top.svg)
 
 Bottom PCB
-![Bottom](https://github.com/swiftrax/Pandamic/blob/master/Images/bottom.svg)
+![Bottom](https://github.com/swiftrax/Pandamic/blob/master/PCB/Images/bottom.svg)
 *Made in KiCad 5.14*
 
 ## License
